@@ -1,4 +1,5 @@
-# AIS-Stop-Identification-Algorithm
+# AIS-Stop-Identification-Algorithm 
+# Author: Sanjeev Bhurtyal
 
 Script to identify stop areas for AIS vessels.
 The script is based on following papers:
@@ -6,7 +7,7 @@ The script is based on following papers:
 2. "Extracting ship stopping information from AIS data" - Yan et al. (2022)
 3. "Inland waterway network mapping of AIS data for freight transportation planning" - Asborno et al. (2022)
 
-# Author: Sanjeev Bhurtyal
+
 
 1.  AIS data raw files can be downloaded in batch from Marine Cadastre website using wget (DownloadAISData_BatchFile.bat)
 2. Raw data does not have consistent file type. Use DataReadFor2009to2014.py to export data from 2009 to 2014 to server. Use DataReadFor2015to2021.py for 2015 and beyond. This step also resamples frequency from 1 minute to 5 minute.
