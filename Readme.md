@@ -1,5 +1,5 @@
 # AIS-Stop-Identification-Algorithm 
-# Author: Sanjeev Bhurtyal
+### Author: Sanjeev Bhurtyal
 
 Script to identify stop areas for AIS vessels.
 The script is based on following papers:
