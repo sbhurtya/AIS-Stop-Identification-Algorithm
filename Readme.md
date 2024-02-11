@@ -8,7 +8,7 @@ The script is based on following papers:
 3. "Inland waterway network mapping of AIS data for freight transportation planning" - Asborno et al. (2022)
 
 
-
+### Instruction
 1.  AIS data raw files can be downloaded in batch from Marine Cadastre website using wget (DownloadAISData_BatchFile.bat)
 2. Raw data does not have consistent file type. Use DataReadFor2009to2014.py to export data from 2009 to 2014 to server. Use DataReadFor2015to2021.py for 2015 and beyond. This step also resamples frequency from 1 minute to 5 minute.
 3. AIS_Stop_Identification.py identifies stop pings. Although it has section that identifies stop area, it is commented out. DBSCAN is used instead.
